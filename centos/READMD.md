@@ -33,3 +33,8 @@ docker run -d --name centos01 --privileged -it joomanba/ssh-enabled-centos:0.1
 ```
 standard_init_linux.go:219: exec user process caused: exec format error
 ```
+
+2. "Service is in unknown state" in ansible
+
+Changing 'centos:lastest' to 'geerlingguy/docker-centos7-ansible' in Docker base image
+
